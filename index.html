@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive pricing component</title>
+
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<!--Title-->
+
+<body>
+<div id="title">
+  <h3 id="traffic">Simple, traffic-based pricing</h3>
+  <h6 id="daytrial">Sign-up for our 30-day trial. No credit card required. </h6>
+</div>
+
+  
+
+
+
+  
+
+  
+<!--Card element-->
+
+  <div class="card">
+    
+<!--Interactive UI, views and price/month or year-->
+    <div class="card-body">
+      <div class="row">
+        <div class="col-md-6">
+          <h5 id="viewamount">0K pageviews</h5>
+        </div>
+        <div class="col-md-6">
+          <h1 id="money">$0.00</h1><h5 id="time"> /month</h5>
+        </div>
+        
+      </div>
+      
+        
+        
+      
+      </div>
+      
+    
+<!--Range slider-->
+     
+     <div class="card-body">
+      <div class="slidecontainer">
+        <input type="range" min="1" max="5" value="1" class="slider" id="myRange">
+        <br>
+        <br>
+        <br>
+        <br>
+
+<!--Buttons-->
+        
+     <div class="row">
+
+<!--Monthly billing btn-->
+       <div class="col-md-1"></div>
+       <div class="col-md-3">
+        <button type="button" class="btn btnmonthly" id="monthlybill">Monthly Billing</button>
+       </div>
+       
+<!--Yearly billing btn-->
+       <div class="col-md-3">
+        <button type="button" class="btn btnyearly" id="yearlybill">Yearly Billing</button></div>
+       <div class="col-md-2" id="discount">25% discount</div>
+       <div class="col-md-1"></div>
+     </div>
+    </div>
+       
+     
+    </div>
+    <br>
+    <br>
+
+<!--UL list-->
+    <div class="card-header">
+     <div class="row">
+       <div class="col-md-6"><ul>
+        <li> Unlimited websites</li>
+        <li> 100% data ownership</li>
+        <li> Email reports</li>
+        
+      </ul></div>
+
+<!--Start my trial btn-->
+       <div class="col-md-6"><button type="button" class="btn btn-lg" id="start">Start my trial</button></div>
+      
+       
+      
+        
+        </div>
+      </div>
+     </div>
+    </div>
+  </div>
+</div> 
+
+<div class="attribution">
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+  Coded by <a href="#">Andras Fogarasi</a>.
+</div>
+ 
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="app.js"></script>
+</body>
+</html>
